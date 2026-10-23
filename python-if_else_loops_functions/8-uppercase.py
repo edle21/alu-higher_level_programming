@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 
 def uppercase(str):
@@ -8,6 +7,3 @@ def uppercase(str):
         else:
             print("{}".format(char), end="")
     print()
-
-
-
