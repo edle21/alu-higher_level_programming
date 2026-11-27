@@ -1,0 +1,7 @@
+>>> from importlib.machinery import SourceFileLoader
+>>> MyList = SourceFileLoader('my_list', '1-my_list.py').load_module().MyList
+>>> my_list = MyList([3, 1, 2])
+>>> my_list.print_sorted()
+[1, 2, 3]
+>>> print(my_list)
+[3, 1, 2]
