@@ -83,3 +83,7 @@ class Rectangle(Base):
         """Set y."""
         self._check_not_negative("y", value)
         self.__y = value
+
+    def area(self):
+        """Return the area of the rectangle."""
+        return self.width * self.height
